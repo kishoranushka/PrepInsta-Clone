@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
+
+    <link rel="stylesheet" href="script.js">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -15,7 +17,25 @@
 </head>
 
 <body class="">
+
+    <!-- Main Container Div -->
     <div class="bg-gray-900 w-full  overflow-hidden">
+
+        <!-- Loader Div Starts Here  -->
+        <div class="relative">
+            <div id="preloader" class="fixed z-50  bg-center w-screen h-auto">
+                <img class="w-full" src="assets/loader-prepinsta.png" alt="preloader image">
+            </div>
+            <div class="absolute w-full h-full">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://lottie.host/f4009d69-c22a-407c-9369-390329961881/eS1lLIEuHW.json"
+                    background="##ffffff" speed="1" style="width: 300px; height: 300px" loop autoplay direction="1"
+                    mode="normal"></lottie-player>
+            </div>
+        </div>
+        <!-- Loader Div Ends Here -->
+
+
         <div class="relative">
             <!-- Nav bar starts Here -->
             <nav class="w-full bg-black">
@@ -66,6 +86,9 @@
                     alt="">
 
             </div>
+
+
+
             <!-- Absolute Image -->
 
             <div class="absolute  w-full h-full top-0 left-0 flex overflow-hidden ">
@@ -1826,6 +1849,28 @@
             </div>
         </div>
 
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=FwE8HPcRIfg18_7E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=FwE8HPcRIfg18_7E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=FwE8HPcRIfg18_7E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=FwE8HPcRIfg18_7E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=FwE8HPcRIfg18_7E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
         <!-- Footer Starts Here -->
         <!-- Main Div -->
         <div class="w-full  pt-16 pb-8 relative ">
@@ -1924,6 +1969,14 @@
 
 
     </div>
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        });
+    </script>
+
 </body>
 
 </html>
